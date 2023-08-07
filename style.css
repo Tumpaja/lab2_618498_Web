@@ -1,0 +1,16 @@
+body {
+    background-color:  rgb(147, 246, 120);
+    font-family: "Trirong", serif;
+}
+
+.centermain {
+    background-color: aliceblue;
+    margin:0 auto;
+    width: 800px;
+    border-radius: 30px;
+}
+.pic {
+    width: 200px;
+    border-radius: 50%;
+
+}
