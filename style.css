@@ -1,7 +1,7 @@
 body {
     margin:0 auto;
     width: 1500px;
-    background-color: #dad8d8;
+    background-color: #f3f3f3;
     font-family: "Calibri";
 }
 
@@ -27,7 +27,8 @@ body {
 }
 
 .P_name_contact > div > img {
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .contact {
     padding-top: 80px;
