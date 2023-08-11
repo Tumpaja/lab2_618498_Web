@@ -1,16 +1,67 @@
 body {
-    background-color:  rgb(147, 246, 120);
-    font-family: "Trirong", serif;
-}
-
-.centermain {
-    background-color: aliceblue;
     margin:0 auto;
-    width: 800px;
-    border-radius: 30px;
+    width: 1500px;
+    background-color: #dad8d8;
+    font-family: "Calibri";
 }
-.pic {
-    width: 200px;
-    border-radius: 50%;
 
+.P_name_contact > div > img {
+    width: 300px;
+    height: 300px;
 }
+
+.P_name_contact {
+    display: flex;
+    margin-left:  0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    border-width: 200px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+  
+.P_name_contact > div {
+    margin: 10px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+.P_name_contact > div > img {
+    padding-top: 50px;
+}
+.contact {
+    padding-top: 80px;
+}
+.email, .phone {
+    display: flex;
+}
+
+.email > div > h3, .phone > div > h3 {
+    font-size: 30px;
+    margin: 30px;
+}
+.email > div > p, .phone > div > p {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.aboutme {
+    display: block;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 50%; background-color: #04AA6D;}
+.css {width: 30%; background-color: #2196F3;}
+.js {width: 0%; background-color: #f44336;}
+.Electronics {width: 60%; background-color: #ff05b4;}
+.Electrical {width: 60%; background-color: #eeff00;}
